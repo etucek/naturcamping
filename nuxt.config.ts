@@ -16,10 +16,6 @@ export default defineNuxtConfig({
     '@t3headless/nuxt-typo3'
   ],
   typo3: {
-    i18n: {
-      default: 'se',
-      locales: ['se', 'en']
-    },
     api: {
       baseUrl: 'https://api.naturcamping.nu'
     }

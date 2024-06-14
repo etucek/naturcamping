@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "//dev": "nuxt dev --host dev.naturcamping.nu --https --ssl-key ssl/privkey.pem --ssl-cert ssl/fullchain.pem --port 3000",
+    "dev": "nuxt dev --host dev.naturcamping.nu --https --ssl-key ssl/privkey.pem --ssl-cert ssl/fullchain.pem --port 3000",
     "generate": "nuxt generate",
     "//preview": "nuxt preview --host dev.naturcamping.nu --https --ssl-key ssl/privkey.pem --ssl-cert ssl/fullchain.pem --port 3000",
     "postinstall": "nuxt prepare",

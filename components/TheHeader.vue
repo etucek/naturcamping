@@ -17,7 +17,7 @@
           {{ title }}
         </NuxtLink>
       </nav>
-      <T3LocaleSwitcher/>
+      <!--<T3LocaleSwitcher/>-->
     </div>
   </header>
 </template>
