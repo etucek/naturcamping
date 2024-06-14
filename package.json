@@ -1,0 +1,28 @@
+{
+  "name": "naturcamping",
+  "version": "1.0.0",
+  "description": "Ett annorlunda sätt att glampa",
+  "author": "Emir Tucek",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@t3headless/nuxt-typo3": "^2.0.2",
+    "@tailwindcss/typography": "^0.5.13",
+    "nuxt": "^3.12.1",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.3",
+    "websocket": "^1.0.35"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
+  }
+}

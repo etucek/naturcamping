@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.t3-ce-frame.layout-hero {
+  width: 100%;
+  margin: 0;
+  max-width: 100%;
+}
+
+.t3-ce-frame {
+  @apply container mx-auto;
+}
+
+.t3-ce-frame.frame-default {
+  @apply container mx-auto;
+}
+
+.t3-ce-frame.frame-indent {
+  @apply prose mx-auto;
+}
+
+.t3-ce-frame.frame-container {
+  @apply container mx-auto;
+}
+
+.t3-ce-frame.space-before-small {
+  @apply mt-2;
+}
+
+.t3-ce-frame.space-after-small {
+  @apply mb-2;
+}
+
+.t3-ce-frame.space-before-default {
+  @apply mt-4;
+}
+
+.t3-ce-frame.space-after-default {
+  @apply mb-4;
+}
+
+.t3-ce-frame.space-before-large {
+  @apply mt-8;
+}
+
+.t3-ce-frame.space-after-large {
+  @apply mb-8;
+}
+
+.t3-ce-frame.space-before-extra-large {
+  @apply mt-12;
+}
+
+.t3-ce-frame.space-after-extra-large {
+  @apply mb-12;
+}
